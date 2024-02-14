@@ -91,7 +91,7 @@ class Program
                     break;
                 case var key when key == shopKey:
 
-                    Console.WriteLine("please enter what you'd like to purchase from the shop, (if you've changed your mind enter x)");
+                    Console.WriteLine("Please enter what you'd like to purchase from the shop, (if you've changed your mind enter x)");
                     var response = Console.ReadLine();
                     if (response == "x")
                     {
