@@ -29,3 +29,6 @@ If
 - 1.4.2 - After player enters id of item to purchase, they are prompted to enter how many items.
 - 1.4.2 - Player can enter how many items they would like to purchase.
 
+## 1.5 - Fire Weapon
+- 1.4.1 - Player can fire weapon by pressing the 'F' key.
+- 1.4.2 - If the user attempts to fire without any weapons in their inventory, a message prompts them to purchase a weapon.
