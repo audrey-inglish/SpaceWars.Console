@@ -10,7 +10,7 @@
 
 ### 1.2 - Change Direction
 [x] 1.2.1 - Player must press the 'A' key to turn left.
-[] 1.2.2 - Player must press the 'D' key to turn right.
+[x] 1.2.2 - Player must press the 'D' key to turn right.
 [] 1.2.3 - If If "shift" key is held down while turning right, move by 15 degrees (heading plus 15 if quickturn = true).
 [] 1.2.4 - If If "shift" key is held down while turning right, move by 15 degrees (instead of 10).
 
