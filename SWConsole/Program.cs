@@ -99,19 +99,24 @@ class Program
                         continue;
                     }
 
-                    if(response == "1")
+                    if (response == "1")
                     {
                         response = "Basic Cannon";
                     }
-                    else if(response == "2")
+                    else if (response == "2")
                     {
                         response = "Power Fist";
                     }
 
                     if (Shop.Any(item => item.Name.Equals(response, StringComparison.OrdinalIgnoreCase)))
                     {
-                        await gameActions.PurchaseItemAsync(response);
-                        Console.WriteLine($"Purchase of {response} requested.");
+                        Console.WriteLine("How many would you like to buy?");
+                        // int quantity = int.Parse(Console.ReadLine());
+                        // for (int i = 0; i < quantity; i++)
+                        // {
+                        //     await gameActions.PurchaseItemAsync(response);
+                        //     Console.WriteLine($"Purchase of {response} requested.");
+                        // }
                     }
                     else
                     {
