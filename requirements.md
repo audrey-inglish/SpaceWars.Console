@@ -19,9 +19,10 @@
 [] 2.2 - Shop menu in the console displays items and their prices.
 
 ## 3 - Purchase Items
-- 3.1 - Player can select item to purchase by entering item's "id" number.
-- 3.3 - After player enters id of item to purchase, they are prompted to enter how many items.
-- 3.4 - If user has insufficient funds, they are notified of the unsuccessful purchase.
+[] 3.1 - Player can select item to purchase by entering item's "id" number.
+[x] 3.2 - Type "cancel" to leave the shop without purchasing.
+[] 3.3 - After player enters id of item to purchase, they are prompted to enter how many items.
+[] 3.4 - If user has insufficient funds, they are notified of the unsuccessful purchase.
 
 
 ## 1.5 - Fire Weapon
