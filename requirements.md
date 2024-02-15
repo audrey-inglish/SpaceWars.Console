@@ -32,5 +32,6 @@
 ## 4 - Fire Weapon
 [x] 4.1 - Player can fire weapon by pressing the 'F' key.
 [x] 4.2 - Player can press 'H' to fire and repair at the same time.
-[] 4.3 - Press 'B' to fire 3 consecutive times.
+[x] 4.3 - Press 'B' to fire 3 consecutive times.
+[x] 4.5 - Press spacebar to fire 10 consecutive times.
 
