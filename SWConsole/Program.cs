@@ -99,6 +99,15 @@ class Program
                         continue;
                     }
 
+                    if(response == "1")
+                    {
+                        response = "Basic Cannon";
+                    }
+                    else if(response == "2")
+                    {
+                        response = "Power Fist";
+                    }
+
                     if (Shop.Any(item => item.Name.Equals(response, StringComparison.OrdinalIgnoreCase)))
                     {
                         await gameActions.PurchaseItemAsync(response);
