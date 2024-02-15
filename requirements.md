@@ -5,15 +5,14 @@
 ### 1.1 - Move Forward
 
 [x] 1.1.1 - Player must press the 'W' key to move forward.
-[x] 1.1.2 - If "shift" key is held down while moving forward, move by 15 units
-(lightSpeed ? 15 : 1 on line 40 of GameActions).
+[x] 1.1.2 - If "shift" key is held down while moving forward, move by 15 units.
 
 
 ### 1.2 - Change Direction
-- 1.2.1 - Player must press the 'A' key to turn left.
-- 1.2.2 - Player must press the 'D' key to turn right.
-- 1.2.3 - If If "shift" key is held down while turning right, move by 15 degrees (heading plus 15 if quickturn = true).
-- 1.2.4 - If If "shift" key is held down while turning right, move by 15 degrees (instead of 10).
+[x] 1.2.1 - Player must press the 'A' key to turn left.
+[] 1.2.2 - Player must press the 'D' key to turn right.
+[] 1.2.3 - If If "shift" key is held down while turning right, move by 15 degrees (heading plus 15 if quickturn = true).
+[] 1.2.4 - If If "shift" key is held down while turning right, move by 15 degrees (instead of 10).
 
 ## 2 - View Shop
 - 2.1 - When 'P' key is pressed, the shop menu opens.
