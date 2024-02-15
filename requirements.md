@@ -16,7 +16,7 @@
 
 ## 2 - View Shop
 [x] 2.1 - When 'P' key is pressed, the shop menu opens.
-[] 2.2 - Shop menu in the console displays items and their prices.
+[x] 2.2 - Shop menu in the console displays items and their prices.
 
 ## 3 - Purchase Items
 [] 3.1 - Player can select item to purchase by entering item's "id" number.

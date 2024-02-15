@@ -92,6 +92,7 @@ class Program
                 case var key when key == shopKey:
 
                     Console.WriteLine("Please enter what you'd like to purchase from the shop, (if you've changed your mind enter 'cancel')");
+                    DisplayShop();
                     var response = Console.ReadLine();
                     if (response == "cancel")
                     {
@@ -160,7 +161,10 @@ class Program
         }
     }
 
-
+    private static void DisplayShop()
+    {
+        Console.WriteLine("\n1 - Basic Cannon - $10\n2 - Power Fist - $500\n");
+    }
     private static Uri getApiBaseAddress(string[] args)
     {
         Uri baseAddress;
