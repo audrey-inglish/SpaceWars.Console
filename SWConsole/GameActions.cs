@@ -16,18 +16,23 @@ public class GameActions
         heading = joinGameResponse.Heading;
         PlayerName = playerName;
     }
-    public async Task RotateLeftAsync(bool quickTurn) => await rotate(Direction.Left, quickTurn);
-
-    public async Task RotateRightAsync(bool quickTurn) => await rotate(Direction.Right, quickTurn);
-
-    private async Task rotate(Direction direction, bool quickTurn)
+    public async Task RotateLeftAsync(bool quickTurn, bool ninetyDegree) 
     {
-        heading = (direction, quickTurn) switch
+        await rotate(Direction.Left, quickTurn, ninetyDegree);
+    }
+
+    public async Task RotateRightAsync(bool quickTurn, bool ninetyDegree) => await rotate(Direction.Right, quickTurn, ninetyDegree);
+
+    private async Task rotate(Direction direction, bool quickTurn, bool ninetyDegree)
+    {
+        heading = (direction, quickTurn, ninetyDegree) switch
         {
-            (Direction.Right, true) => heading + 15,
-            (Direction.Right, false) => heading + 1,
-            (Direction.Left, true) => heading - 15,
-            (Direction.Left, false) => heading - 1,
+            (Direction.Right, true, false) => heading + 15,
+            (Direction.Right, false, false) => heading + 1,
+            (Direction.Right, false, true) => heading + 90,
+            (Direction.Left, true, false) => heading - 15,
+            (Direction.Left, false, false) => heading - 1,
+            (Direction.Left, false, true) => heading - 90,
             _ => 0,//turn north if someone calls this with a bogus Direction
         };
         heading = ClampRotation(heading);

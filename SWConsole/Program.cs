@@ -59,6 +59,7 @@ class Program
             printStatus();
             ConsoleKeyInfo keyInfo = Console.ReadKey(true); // Read key without displaying it
             bool shiftPressed = keyInfo.Modifiers.HasFlag(ConsoleModifiers.Shift);
+            bool ctrlPressed = keyInfo.Modifiers.HasFlag(ConsoleModifiers.Control);
 
             switch (keyInfo.Key)
             {
@@ -66,10 +67,10 @@ class Program
                     await gameActions.MoveForwardAsync(shiftPressed);
                     break;
                 case var key when key == leftKey:
-                    await gameActions.RotateLeftAsync(shiftPressed);
+                    await gameActions.RotateLeftAsync(shiftPressed, ctrlPressed);
                     break;
                 case var key when key == rightKey:
-                    await gameActions.RotateRightAsync(shiftPressed);
+                    await gameActions.RotateRightAsync(shiftPressed, /*ctrlPressed*/);
                     break;
                 case var key when key == fireKey:
                     await gameActions.FireWeaponAsync();

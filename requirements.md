@@ -12,8 +12,10 @@
 ### 1.2 - Change Direction
 [x] 1.2.1 - Player must press the 'A' key to turn left.
 [x] 1.2.2 - Player must press the 'D' key to turn right.
-[x] 1.2.3 - If If "shift" key is held down while turning right, move by 15 degrees.
-[x] 1.2.4 - If If "shift" key is held down while turning left, move by 15 degrees (instead of 10).
+[x] 1.2.3 - If "shift" key is held down while turning right, move by 15 degrees.
+[x] 1.2.4 - If "shift" key is held down while turning left, move by 15 degrees (instead of 10).
+[x] 1.2.5 - If "control" key is held down while turning left, move by 90 degrees.
+[] ---- 90º turn right
 
 ## 2 - View Shop
 [x] 2.1 - When 'P' key is pressed, the shop menu opens.
