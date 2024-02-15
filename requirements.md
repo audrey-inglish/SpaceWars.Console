@@ -22,7 +22,7 @@
 [x] 3.1 - Player can select item to purchase by entering item's id number, rather than typing out the full name.
 [x] 3.2 - Type "cancel" to leave the shop without purchasing.
 [x] 3.3 - After player enters id of item to purchase, they are prompted to enter how many items.
-[] 3.4 - User can enter a quantity of items to purchase and inventory will update accordingly.
+[x] 3.4 - User can enter a quantity of items to purchase and inventory will update accordingly.
 [] 3.5 - If user has insufficient funds, they are notified of the unsuccessful purchase.
 
 

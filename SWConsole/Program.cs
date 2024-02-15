@@ -111,12 +111,12 @@ class Program
                     if (Shop.Any(item => item.Name.Equals(response, StringComparison.OrdinalIgnoreCase)))
                     {
                         Console.WriteLine("How many would you like to buy?");
-                        // int quantity = int.Parse(Console.ReadLine());
-                        // for (int i = 0; i < quantity; i++)
-                        // {
-                        //     await gameActions.PurchaseItemAsync(response);
-                        //     Console.WriteLine($"Purchase of {response} requested.");
-                        // }
+                        int quantity = int.Parse(Console.ReadLine());
+                        for (int i = 0; i < quantity; i++)
+                        {
+                            await gameActions.PurchaseItemAsync(response);
+                            Console.WriteLine($"Purchase of {response} requested.");
+                        }
                     }
                     else
                     {
