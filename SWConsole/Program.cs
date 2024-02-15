@@ -15,7 +15,7 @@ class Program
         const ConsoleKey forwardKey = ConsoleKey.W;
         const ConsoleKey leftKey = ConsoleKey.A;
         const ConsoleKey rightKey = ConsoleKey.D;
-        const ConsoleKey fireKey = ConsoleKey.Spacebar;
+        const ConsoleKey fireKey = ConsoleKey.F;
         const ConsoleKey clearQueueKey = ConsoleKey.C;
         const ConsoleKey infoKey = ConsoleKey.I;
         const ConsoleKey shopKey = ConsoleKey.P;

@@ -26,6 +26,5 @@
 [] 3.5 - If user has insufficient funds, they are notified of the unsuccessful purchase.
 
 
-## 1.5 - Fire Weapon
-- 1.4.1 - Player can fire weapon by pressing the 'F' key.
-- 1.4.2 - If the user attempts to fire without any weapons in their inventory, a message prompts them to purchase a weapon.
+## 4 - Fire Weapon
+[x] 4.1 - Player can fire weapon by pressing the 'F' key.
