@@ -15,7 +15,7 @@
 [x] 1.2.3 - If "shift" key is held down while turning right, move by 15 degrees.
 [x] 1.2.4 - If "shift" key is held down while turning left, move by 15 degrees (instead of 10).
 [x] 1.2.5 - If "control" key is held down while turning left, move by 90 degrees.
-[] 1.2.6 - If "control" key is held down while turning right, move by 90 degrees.
+[x] 1.2.6 - If "control" key is held down while turning right, move by 90 degrees.
 
 ## 2 - View Shop
 [x] 2.1 - When 'P' key is pressed, the shop menu opens.
@@ -28,6 +28,9 @@
 [x] 3.4 - User can enter a quantity of items to purchase and inventory will update accordingly.
 
 
+
 ## 4 - Fire Weapon
 [x] 4.1 - Player can fire weapon by pressing the 'F' key.
-[] 4.2 - Player can press 'H' to fire and repair at the same time.
+[x] 4.2 - Player can press 'H' to fire and repair at the same time.
+[] 4.3 - Press 'B' to fire 3 consecutive times.
+

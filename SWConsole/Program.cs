@@ -145,6 +145,12 @@ class Program
                     await gameActions.RepairShipAsync();
                     Console.WriteLine("Ship repair requested.");
                     break;
+                case ConsoleKey.B:
+                    for (int i = 0; i < 3; i++)
+                    {
+                        await gameActions.FireWeaponAsync();
+                    }
+                    break;
 
             }
         }
