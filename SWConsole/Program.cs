@@ -136,8 +136,8 @@ class Program
                 //***  |    |    |    |       Add any other custom keys here       |    |    |    |    |
                 //***  V    V    V    V                                            V    V    V    V    V
                 //**************************************************************************************
-                case ConsoleKey.N:
-                    //example
+                case ConsoleKey.J:
+                    await gameActions.JumpForwardAsync();
                     break;
             }
         }

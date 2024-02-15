@@ -6,6 +6,7 @@
 
 [x] 1.1.1 - Player must press the 'W' key to move forward.
 [x] 1.1.2 - If "shift" key is held down while moving forward, move by 15 units.
+[] 1.1.3 - Press J to jump to hyperspace and move by 50 units.
 
 
 ### 1.2 - Change Direction
@@ -23,7 +24,6 @@
 [x] 3.2 - Type "cancel" to leave the shop without purchasing.
 [x] 3.3 - After player enters id of item to purchase, they are prompted to enter how many items.
 [x] 3.4 - User can enter a quantity of items to purchase and inventory will update accordingly.
-[] 3.5 - If user has insufficient funds, they are notified of the unsuccessful purchase.
 
 
 ## 4 - Fire Weapon
