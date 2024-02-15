@@ -26,7 +26,7 @@ public class GameActions
         {
             (Direction.Right, true) => heading + 15,
             (Direction.Right, false) => heading + 1,
-            (Direction.Left, true) => heading - 10,
+            (Direction.Left, true) => heading - 15,
             (Direction.Left, false) => heading - 1,
             _ => 0,//turn north if someone calls this with a bogus Direction
         };
