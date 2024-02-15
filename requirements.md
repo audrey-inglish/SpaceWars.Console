@@ -1,9 +1,4 @@
 
-# Flows
-## Flow 1 - Move Forward
-If
-
-
 # Requirements
 
 ## 1 - Navigate
@@ -20,14 +15,15 @@ If
 - 1.2.3 - If If "shift" key is held down while turning right, move by 15 degrees (heading plus 15 if quickturn = true).
 - 1.2.4 - If If "shift" key is held down while turning right, move by 15 degrees (instead of 10).
 
-## 1.3 - View Shop
-- 1.3.1 - When 'P' key is pressed, the shop menu opens.
-- 1.3.2 - Shop menu in the console displays items and their prices.
+## 2 - View Shop
+- 2.1 - When 'P' key is pressed, the shop menu opens.
+- 2.2 - Shop menu in the console displays items and their prices.
 
-## 1.4 - Purchase Items
-- 1.4.1 - Player can select item to purchase by entering item's "id" number.
-- 1.4.2 - After player enters id of item to purchase, they are prompted to enter how many items.
-- 1.4.2 - Player can enter how many items they would like to purchase.
+## 3 - Purchase Items
+- 3.1 - Player can select item to purchase by entering item's "id" number.
+- 3.3 - After player enters id of item to purchase, they are prompted to enter how many items.
+- 3.4 - If user has insufficient funds, they are notified of the unsuccessful purchase.
+
 
 ## 1.5 - Fire Weapon
 - 1.4.1 - Player can fire weapon by pressing the 'F' key.
