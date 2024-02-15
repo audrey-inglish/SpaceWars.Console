@@ -15,8 +15,8 @@
 [x] 1.2.4 - If If "shift" key is held down while turning left, move by 15 degrees (instead of 10).
 
 ## 2 - View Shop
-- 2.1 - When 'P' key is pressed, the shop menu opens.
-- 2.2 - Shop menu in the console displays items and their prices.
+[x] 2.1 - When 'P' key is pressed, the shop menu opens.
+[] 2.2 - Shop menu in the console displays items and their prices.
 
 ## 3 - Purchase Items
 - 3.1 - Player can select item to purchase by entering item's "id" number.
