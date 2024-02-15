@@ -70,7 +70,7 @@ class Program
                     await gameActions.RotateLeftAsync(shiftPressed, ctrlPressed);
                     break;
                 case var key when key == rightKey:
-                    await gameActions.RotateRightAsync(shiftPressed, /*ctrlPressed*/);
+                    await gameActions.RotateRightAsync(shiftPressed, ctrlPressed);
                     break;
                 case var key when key == fireKey:
                     await gameActions.FireWeaponAsync();

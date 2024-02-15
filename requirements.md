@@ -15,7 +15,7 @@
 [x] 1.2.3 - If "shift" key is held down while turning right, move by 15 degrees.
 [x] 1.2.4 - If "shift" key is held down while turning left, move by 15 degrees (instead of 10).
 [x] 1.2.5 - If "control" key is held down while turning left, move by 90 degrees.
-[] ---- 90º turn right
+[] 1.2.6 - If "control" key is held down while turning right, move by 90 degrees.
 
 ## 2 - View Shop
 [x] 2.1 - When 'P' key is pressed, the shop menu opens.
