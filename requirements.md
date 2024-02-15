@@ -4,8 +4,8 @@
 ## 1 - Navigate
 ### 1.1 - Move Forward
 
-- 1.1.1 - Player must press the 'W' key to move forward.
-- 1.1.2 - If "shift" key is held down while moving forward, move by 15 units
+[x] 1.1.1 - Player must press the 'W' key to move forward.
+[x] 1.1.2 - If "shift" key is held down while moving forward, move by 15 units
 (lightSpeed ? 15 : 1 on line 40 of GameActions).
 
 
