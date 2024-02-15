@@ -27,11 +27,10 @@
 [x] 3.3 - After player enters id of item to purchase, they are prompted to enter how many items.
 [x] 3.4 - User can enter a quantity of items to purchase and inventory will update accordingly.
 
-
-
 ## 4 - Fire Weapon
 [x] 4.1 - Player can fire weapon by pressing the 'F' key.
 [x] 4.2 - Player can press 'H' to fire and repair at the same time.
 [x] 4.3 - Press 'B' to fire 3 consecutive times.
+[x] 4.4 - Press 'V' to fire 5 consecutive times.
 [x] 4.5 - Press spacebar to fire 10 consecutive times.
 

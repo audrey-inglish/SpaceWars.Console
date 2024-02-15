@@ -157,6 +157,12 @@ class Program
                         await gameActions.FireWeaponAsync();
                     }
                     break;
+                case ConsoleKey.V:
+                    for (int i = 0; i < 5; i++)
+                    {
+                        await gameActions.FireWeaponAsync();
+                    }
+                    break;
 
             }
         }
