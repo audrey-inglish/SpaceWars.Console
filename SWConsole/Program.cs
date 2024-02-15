@@ -139,6 +139,12 @@ class Program
                 case ConsoleKey.J:
                     await gameActions.JumpForwardAsync();
                     break;
+                case ConsoleKey.H: //repair and fire simultaneously
+                    await gameActions.FireWeaponAsync();
+                    await gameActions.RepairShipAsync();
+                    Console.WriteLine("Ship repair requested.");
+                    break;
+
             }
         }
 

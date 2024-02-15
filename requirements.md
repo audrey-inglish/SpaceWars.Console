@@ -6,7 +6,7 @@
 
 [x] 1.1.1 - Player must press the 'W' key to move forward.
 [x] 1.1.2 - If "shift" key is held down while moving forward, move by 15 units.
-[] 1.1.3 - Press J to jump to hyperspace and move by 50 units.
+[x] 1.1.3 - Press 'J' to jump to hyperspace and move by 50 units.
 
 
 ### 1.2 - Change Direction
@@ -28,3 +28,4 @@
 
 ## 4 - Fire Weapon
 [x] 4.1 - Player can fire weapon by pressing the 'F' key.
+[] 4.2 - Player can press 'H' to fire and repair at the same time.
