@@ -5,6 +5,8 @@ namespace SpaceWarsServices;
 
 class Program
 {
+    private static int itemId = 1;
+
     static async Task Main(string[] args)
     {
         //**************************************************************************************
@@ -93,7 +95,12 @@ class Program
                 case var key when key == shopKey:
 
                     Console.WriteLine("Please enter what you'd like to purchase from the shop, (if you've changed your mind enter 'cancel')");
-                    DisplayShop();
+                    foreach (var item in Shop)
+                    {
+                        Console.WriteLine($"{itemId++} - {item.Name} - cost: ${item.Cost}");
+                    }
+                    itemId = 1;
+
                     var response = Console.ReadLine();
                     if (response == "cancel")
                     {
